@@ -13,7 +13,7 @@ struct TimeBar: View {
     
     let width: CGFloat = 5
     let height: CGFloat = 350
-    let cornerRadius: CGFloat
+    let cornerRadius: CGFloat = 5
 
     var body: some View {
         ZStack {

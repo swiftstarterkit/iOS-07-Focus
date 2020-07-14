@@ -27,6 +27,9 @@ class TimeRobot: ObservableObject {
         fillProgressBar()
         invalidateTimer()
     }
+}
+
+extension TimeRobot {
     
     func initializeTimer() {
         timerActive = true
