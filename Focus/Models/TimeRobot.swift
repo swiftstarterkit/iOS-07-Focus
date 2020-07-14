@@ -6,21 +6,20 @@
 //
 
 import SwiftUI
-import Combine
 
 class TimeRobot: ObservableObject {
     
-    @Published var timeStart: Float = 50
-    @Published var timeRemaining: Float = 50
+    @Published var timeStart: Float = 0
+    @Published var timeRemaining: Float = 0
     @Published var progressBarHeight: CGFloat = 350
     @Published var timerActive: Bool = false
     
     var timer: Timer?
     
-    func runFocusTimer() {
+    func runFocusTimer(time: Float) {
         fillProgressBar()
         invalidateTimer()
-        initializeTimer()
+        initializeTimer(time: time)
     }
     
     func resetFocusTimer() {
@@ -29,13 +28,15 @@ class TimeRobot: ObservableObject {
     }
 }
 
+// MARK: - TimeRobot Functions
+
 extension TimeRobot {
     
-    func initializeTimer() {
+    func initializeTimer(time: Float) {
         timerActive = true
-        timeRemaining = 50
-        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in self.runTimerActions()
-        }
+        timeStart = time
+        timeRemaining = time
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in self.runTimerActions() }
     }
     
     func invalidateTimer() {
