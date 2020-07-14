@@ -59,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				7A835BBE24BCD81A00D48F17 /* FocusApp.swift */,
-				7A835BD624BCDBB500D48F17 /* Models */,
-				7A835BD524BCDBAF00D48F17 /* Views */,
+				7A835BC024BCD81A00D48F17 /* ContentView.swift */,
+				7A835BD324BCDBA600D48F17 /* TimeRobot.swift */,
+				7A5AD87D24BD41AC00979A53 /* TimeBar.swift */,
+				7A835BCF24BCD94900D48F17 /* TimeButton.swift */,
 				7A835BC224BCD81E00D48F17 /* Assets.xcassets */,
 				7A835BC724BCD81E00D48F17 /* Info.plist */,
 				7A835BC424BCD81E00D48F17 /* Preview Content */,
@@ -74,24 +76,6 @@
 				7A835BC524BCD81E00D48F17 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7A835BD524BCDBAF00D48F17 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7A835BC024BCD81A00D48F17 /* ContentView.swift */,
-				7A835BCF24BCD94900D48F17 /* TimeButton.swift */,
-				7A5AD87D24BD41AC00979A53 /* TimeBar.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		7A835BD624BCDBB500D48F17 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7A835BD324BCDBA600D48F17 /* TimeRobot.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

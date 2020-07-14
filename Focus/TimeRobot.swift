@@ -11,20 +11,17 @@ class TimeRobot: ObservableObject {
     
     @Published var timeStart: Float = 0
     @Published var timeRemaining: Float = 0
-    @Published var progressBarHeight: CGFloat = 350
     @Published var timerActive: Bool = false
     
     var timer: Timer?
     
     func runFocusTimer(time: Float) {
-        fillProgressBar()
         invalidateTimer()
         initializeTimer(time: time)
     }
     
     func resetFocusTimer() {
         resetTime()
-        fillProgressBar()
         invalidateTimer()
     }
 }
@@ -44,12 +41,12 @@ extension TimeRobot {
     func invalidateTimer() {
         timerActive = false
         timer?.invalidate()
+        resetTime()
     }
     
     func runTimerActions() {
-        if timeRemaining > 0  {
+        if timeRemaining > 1  {
             reduceTime()
-            resizeProgressBar()
         } else {
             invalidateTimer()
         }
@@ -57,14 +54,6 @@ extension TimeRobot {
     
     func reduceTime() {
         timeRemaining = timeRemaining - 1
-    }
-    
-    func resizeProgressBar() {
-        progressBarHeight = CGFloat(timeRemaining / timeStart) * 350
-    }
-    
-    func fillProgressBar() {
-        progressBarHeight = 350
     }
     
     func resetTime() {
