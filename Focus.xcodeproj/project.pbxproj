@@ -14,8 +14,6 @@
 		7A835BC624BCD81E00D48F17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A835BC524BCD81E00D48F17 /* Preview Assets.xcassets */; };
 		7A835BD024BCD94900D48F17 /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A835BCF24BCD94900D48F17 /* TimeButton.swift */; };
 		7A835BD424BCDBA600D48F17 /* TimeRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A835BD324BCDBA600D48F17 /* TimeRobot.swift */; };
-		7A835BDC24BCDCEC00D48F17 /* TimeBarBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A835BDB24BCDCEC00D48F17 /* TimeBarBackground.swift */; };
-		7A835BDF24BCDD0800D48F17 /* TimeBarForeground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A835BDE24BCDD0800D48F17 /* TimeBarForeground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +26,6 @@
 		7A835BC724BCD81E00D48F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A835BCF24BCD94900D48F17 /* TimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
 		7A835BD324BCDBA600D48F17 /* TimeRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRobot.swift; sourceTree = "<group>"; };
-		7A835BDB24BCDCEC00D48F17 /* TimeBarBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBarBackground.swift; sourceTree = "<group>"; };
-		7A835BDE24BCDD0800D48F17 /* TimeBarForeground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBarForeground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +82,6 @@
 				7A835BC024BCD81A00D48F17 /* ContentView.swift */,
 				7A835BCF24BCD94900D48F17 /* TimeButton.swift */,
 				7A5AD87D24BD41AC00979A53 /* TimeBar.swift */,
-				7A835BDB24BCDCEC00D48F17 /* TimeBarBackground.swift */,
-				7A835BDE24BCDD0800D48F17 /* TimeBarForeground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,12 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A835BDF24BCDD0800D48F17 /* TimeBarForeground.swift in Sources */,
 				7A835BD024BCD94900D48F17 /* TimeButton.swift in Sources */,
 				7A835BC124BCD81A00D48F17 /* ContentView.swift in Sources */,
 				7A835BBF24BCD81A00D48F17 /* FocusApp.swift in Sources */,
 				7A5AD87E24BD41AC00979A53 /* TimeBar.swift in Sources */,
-				7A835BDC24BCDCEC00D48F17 /* TimeBarBackground.swift in Sources */,
 				7A835BD424BCDBA600D48F17 /* TimeRobot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

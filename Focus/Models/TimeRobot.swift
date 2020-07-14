@@ -23,6 +23,7 @@ class TimeRobot: ObservableObject {
     }
     
     func resetFocusTimer() {
+        resetTime()
         fillProgressBar()
         invalidateTimer()
     }
@@ -36,7 +37,8 @@ extension TimeRobot {
         timerActive = true
         timeStart = time
         timeRemaining = time
-        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in self.runTimerActions() }
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in self.runTimerActions()}
+        // "withTimeInterval" parameter can be changed to "60.0" to convert timer to minutes instead of seconds.
     }
     
     func invalidateTimer() {
@@ -63,5 +65,10 @@ extension TimeRobot {
     
     func fillProgressBar() {
         progressBarHeight = 350
+    }
+    
+    func resetTime() {
+        timeStart = 0
+        timeRemaining = 0
     }
 }

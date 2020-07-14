@@ -15,19 +15,27 @@ struct TimeBar: View {
     let height: CGFloat = 350
     let cornerRadius: CGFloat = 5
 
+    var progressBarColor: Color {
+        if timeRobot.timerActive == true {
+            return Color(.systemGreen)
+        } else {
+            return Color(.systemGray5)
+        }
+    }
+    
     var body: some View {
         ZStack {
             
-            TimeBarBackground(width: width,
-                              height: height,
-                              cornerRadius: cornerRadius,
-                              color: Color(.systemGray5))
+            RoundedRectangle(cornerRadius: cornerRadius)
+                .foregroundColor(Color(.systemGray5))
+                .frame(width: width, height: height)
             
-            TimeBarForeground(width: width,
-                              height: height,
-                              cornerRadius: cornerRadius,
-                              color: timeRobot.timerActive ?
-                                Color(.systemGreen) : Color(.systemGray5))
+            VStack {
+                Spacer()
+                RoundedRectangle(cornerRadius: cornerRadius)
+                    .foregroundColor(progressBarColor)
+                    .frame(width: width, height: timeRobot.progressBarHeight)
+            }
             
         }   .frame(width: width, height: height)
     }

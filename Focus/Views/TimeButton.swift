@@ -1,5 +1,5 @@
 //
-//  TimeLabelView.swift
+//  TimeButton.swift
 //  Focus
 //
 //  Created by Pao Yu on 2020-07-13.
