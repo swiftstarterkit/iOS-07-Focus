@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TimeButton: View {
+struct TimeLabel: View {
     
     @EnvironmentObject var timeRobot: TimeRobot
     
