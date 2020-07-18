@@ -1,63 +1,67 @@
 //
-//  TimeRobot.swift
+//  FocusModel.swift
 //  Focus
 //
-//  Created by Pao Yu on 2020-07-13.
+//  Created by Pao Yu on 2020-07-15.
 //
 
 import SwiftUI
 
-class TimeRobot: ObservableObject {
+class FocusModel: ObservableObject {
     
+    @Published var timerActive: Bool = false
     @Published var timeStart: Float = 0
     @Published var timeRemaining: Float = 0
-    @Published var timerActive: Bool = false
     
     var timer: Timer?
     
     func runFocusTimer(time: Float) {
+        print("Timer activated!")
         invalidateTimer()
         initializeTimer(time: time)
     }
     
     func resetFocusTimer() {
-        resetTime()
+        print("Timer reset!")
         invalidateTimer()
     }
+    
 }
 
 // MARK: - TimeRobot Functions
 
-extension TimeRobot {
+extension FocusModel {
     
     func initializeTimer(time: Float) {
         timerActive = true
         timeStart = time
-        timeRemaining = time
-        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in self.runTimerActions()}
-        // "withTimeInterval" parameter can be changed to "60.0" to convert timer to minutes instead of seconds.
+        timeRemaining = timeStart
+        timer = Timer.scheduledTimer(withTimeInterval: 60.0, repeats: true) { timer in self.runTimerActions() }
     }
     
     func invalidateTimer() {
         timerActive = false
         timer?.invalidate()
-        resetTime()
+        timeStart = 0
+        timeRemaining = 0
     }
     
     func runTimerActions() {
-        if timeRemaining > 1  {
+        
+        if timeRemaining > 1 {
             reduceTime()
+            checkRemainingTime()
         } else {
             invalidateTimer()
         }
+        
     }
     
     func reduceTime() {
-        timeRemaining = timeRemaining - 1
+        timeRemaining -= 1
     }
     
-    func resetTime() {
-        timeStart = 0
-        timeRemaining = 0
+    func checkRemainingTime() {
+        print("Time remaining is \(timeRemaining)")
     }
 }

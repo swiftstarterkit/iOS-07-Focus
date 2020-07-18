@@ -2,7 +2,7 @@
 //  FocusApp.swift
 //  Focus
 //
-//  Created by Pao Yu on 2020-07-13.
+//  Created by Pao Yu on 2020-07-15.
 //
 
 import SwiftUI
@@ -10,12 +10,11 @@ import SwiftUI
 @main
 struct FocusApp: App {
     
-    @StateObject var timeRobot: TimeRobot = TimeRobot()
+    @StateObject var model: FocusModel = FocusModel()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(timeRobot)
+            ContentView().environmentObject(model)
         }
     }
 }

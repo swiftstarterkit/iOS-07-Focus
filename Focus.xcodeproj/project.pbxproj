@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A5AD87E24BD41AC00979A53 /* TimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AD87D24BD41AC00979A53 /* TimeBar.swift */; };
-		7A835BBF24BCD81A00D48F17 /* FocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A835BBE24BCD81A00D48F17 /* FocusApp.swift */; };
-		7A835BC124BCD81A00D48F17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A835BC024BCD81A00D48F17 /* ContentView.swift */; };
-		7A835BC324BCD81E00D48F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A835BC224BCD81E00D48F17 /* Assets.xcassets */; };
-		7A835BC624BCD81E00D48F17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A835BC524BCD81E00D48F17 /* Preview Assets.xcassets */; };
-		7A835BD024BCD94900D48F17 /* TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A835BCF24BCD94900D48F17 /* TimeLabel.swift */; };
-		7A835BD424BCDBA600D48F17 /* TimeRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A835BD324BCDBA600D48F17 /* TimeRobot.swift */; };
+		7ABE404C24BF810A00BF168A /* FocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE404B24BF810A00BF168A /* FocusApp.swift */; };
+		7ABE404E24BF810A00BF168A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE404D24BF810A00BF168A /* ContentView.swift */; };
+		7ABE405024BF810D00BF168A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE404F24BF810D00BF168A /* Assets.xcassets */; };
+		7ABE405324BF810D00BF168A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE405224BF810D00BF168A /* Preview Assets.xcassets */; };
+		7ABE405B24BF838F00BF168A /* TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE405A24BF838F00BF168A /* TimeLabel.swift */; };
+		7ABE405F24BF9C9E00BF168A /* TimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE405E24BF9C9E00BF168A /* TimeBar.swift */; };
+		7ABE406324BFC2ED00BF168A /* FocusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE406224BFC2ED00BF168A /* FocusModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A5AD87D24BD41AC00979A53 /* TimeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBar.swift; sourceTree = "<group>"; };
-		7A835BBB24BCD81A00D48F17 /* Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focus.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A835BBE24BCD81A00D48F17 /* FocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusApp.swift; sourceTree = "<group>"; };
-		7A835BC024BCD81A00D48F17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7A835BC224BCD81E00D48F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A835BC524BCD81E00D48F17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7A835BC724BCD81E00D48F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A835BCF24BCD94900D48F17 /* TimeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLabel.swift; sourceTree = "<group>"; };
-		7A835BD324BCDBA600D48F17 /* TimeRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRobot.swift; sourceTree = "<group>"; };
+		7ABE404824BF810A00BF168A /* Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABE404B24BF810A00BF168A /* FocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusApp.swift; sourceTree = "<group>"; };
+		7ABE404D24BF810A00BF168A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7ABE404F24BF810D00BF168A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ABE405224BF810D00BF168A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ABE405424BF810D00BF168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABE405A24BF838F00BF168A /* TimeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLabel.swift; sourceTree = "<group>"; };
+		7ABE405E24BF9C9E00BF168A /* TimeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBar.swift; sourceTree = "<group>"; };
+		7ABE406224BFC2ED00BF168A /* FocusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A835BB824BCD81A00D48F17 /* Frameworks */ = {
+		7ABE404524BF810A00BF168A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,55 +39,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A835BB224BCD81A00D48F17 = {
+		7ABE403F24BF810A00BF168A = {
 			isa = PBXGroup;
 			children = (
-				7A835BBD24BCD81A00D48F17 /* Focus */,
-				7A835BBC24BCD81A00D48F17 /* Products */,
+				7ABE404A24BF810A00BF168A /* Focus */,
+				7ABE404924BF810A00BF168A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A835BBC24BCD81A00D48F17 /* Products */ = {
+		7ABE404924BF810A00BF168A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A835BBB24BCD81A00D48F17 /* Focus.app */,
+				7ABE404824BF810A00BF168A /* Focus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A835BBD24BCD81A00D48F17 /* Focus */ = {
+		7ABE404A24BF810A00BF168A /* Focus */ = {
 			isa = PBXGroup;
 			children = (
-				7A835BBE24BCD81A00D48F17 /* FocusApp.swift */,
-				7A835BC024BCD81A00D48F17 /* ContentView.swift */,
-				7A835BD324BCDBA600D48F17 /* TimeRobot.swift */,
-				7A5AD87D24BD41AC00979A53 /* TimeBar.swift */,
-				7A835BCF24BCD94900D48F17 /* TimeLabel.swift */,
-				7A835BC224BCD81E00D48F17 /* Assets.xcassets */,
-				7A835BC724BCD81E00D48F17 /* Info.plist */,
-				7A835BC424BCD81E00D48F17 /* Preview Content */,
+				7ABE404B24BF810A00BF168A /* FocusApp.swift */,
+				7AD5157924C215D90089F11D /* Models */,
+				7AD5157A24C215E80089F11D /* View */,
+				7ABE404F24BF810D00BF168A /* Assets.xcassets */,
+				7ABE405424BF810D00BF168A /* Info.plist */,
+				7ABE405124BF810D00BF168A /* Preview Content */,
 			);
 			path = Focus;
 			sourceTree = "<group>";
 		};
-		7A835BC424BCD81E00D48F17 /* Preview Content */ = {
+		7ABE405124BF810D00BF168A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7A835BC524BCD81E00D48F17 /* Preview Assets.xcassets */,
+				7ABE405224BF810D00BF168A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AD5157924C215D90089F11D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7ABE406224BFC2ED00BF168A /* FocusModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AD5157A24C215E80089F11D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7ABE404D24BF810A00BF168A /* ContentView.swift */,
+				7ABE405E24BF9C9E00BF168A /* TimeBar.swift */,
+				7ABE405A24BF838F00BF168A /* TimeLabel.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A835BBA24BCD81A00D48F17 /* Focus */ = {
+		7ABE404724BF810A00BF168A /* Focus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A835BCA24BCD81E00D48F17 /* Build configuration list for PBXNativeTarget "Focus" */;
+			buildConfigurationList = 7ABE405724BF810D00BF168A /* Build configuration list for PBXNativeTarget "Focus" */;
 			buildPhases = (
-				7A835BB724BCD81A00D48F17 /* Sources */,
-				7A835BB824BCD81A00D48F17 /* Frameworks */,
-				7A835BB924BCD81A00D48F17 /* Resources */,
+				7ABE404424BF810A00BF168A /* Sources */,
+				7ABE404524BF810A00BF168A /* Frameworks */,
+				7ABE404624BF810A00BF168A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -95,24 +111,24 @@
 			);
 			name = Focus;
 			productName = Focus;
-			productReference = 7A835BBB24BCD81A00D48F17 /* Focus.app */;
+			productReference = 7ABE404824BF810A00BF168A /* Focus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7A835BB324BCD81A00D48F17 /* Project object */ = {
+		7ABE404024BF810A00BF168A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					7A835BBA24BCD81A00D48F17 = {
+					7ABE404724BF810A00BF168A = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = 7A835BB624BCD81A00D48F17 /* Build configuration list for PBXProject "Focus" */;
+			buildConfigurationList = 7ABE404324BF810A00BF168A /* Build configuration list for PBXProject "Focus" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,45 +136,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 7A835BB224BCD81A00D48F17;
-			productRefGroup = 7A835BBC24BCD81A00D48F17 /* Products */;
+			mainGroup = 7ABE403F24BF810A00BF168A;
+			productRefGroup = 7ABE404924BF810A00BF168A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A835BBA24BCD81A00D48F17 /* Focus */,
+				7ABE404724BF810A00BF168A /* Focus */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A835BB924BCD81A00D48F17 /* Resources */ = {
+		7ABE404624BF810A00BF168A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A835BC624BCD81E00D48F17 /* Preview Assets.xcassets in Resources */,
-				7A835BC324BCD81E00D48F17 /* Assets.xcassets in Resources */,
+				7ABE405324BF810D00BF168A /* Preview Assets.xcassets in Resources */,
+				7ABE405024BF810D00BF168A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A835BB724BCD81A00D48F17 /* Sources */ = {
+		7ABE404424BF810A00BF168A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A835BD024BCD94900D48F17 /* TimeLabel.swift in Sources */,
-				7A835BC124BCD81A00D48F17 /* ContentView.swift in Sources */,
-				7A835BBF24BCD81A00D48F17 /* FocusApp.swift in Sources */,
-				7A5AD87E24BD41AC00979A53 /* TimeBar.swift in Sources */,
-				7A835BD424BCDBA600D48F17 /* TimeRobot.swift in Sources */,
+				7ABE405F24BF9C9E00BF168A /* TimeBar.swift in Sources */,
+				7ABE404E24BF810A00BF168A /* ContentView.swift in Sources */,
+				7ABE406324BFC2ED00BF168A /* FocusModel.swift in Sources */,
+				7ABE405B24BF838F00BF168A /* TimeLabel.swift in Sources */,
+				7ABE404C24BF810A00BF168A /* FocusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7A835BC824BCD81E00D48F17 /* Debug */ = {
+		7ABE405524BF810D00BF168A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		7A835BC924BCD81E00D48F17 /* Release */ = {
+		7ABE405624BF810D00BF168A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +290,7 @@
 			};
 			name = Release;
 		};
-		7A835BCB24BCD81E00D48F17 /* Debug */ = {
+		7ABE405824BF810D00BF168A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -296,7 +312,7 @@
 			};
 			name = Debug;
 		};
-		7A835BCC24BCD81E00D48F17 /* Release */ = {
+		7ABE405924BF810D00BF168A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -321,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A835BB624BCD81A00D48F17 /* Build configuration list for PBXProject "Focus" */ = {
+		7ABE404324BF810A00BF168A /* Build configuration list for PBXProject "Focus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A835BC824BCD81E00D48F17 /* Debug */,
-				7A835BC924BCD81E00D48F17 /* Release */,
+				7ABE405524BF810D00BF168A /* Debug */,
+				7ABE405624BF810D00BF168A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A835BCA24BCD81E00D48F17 /* Build configuration list for PBXNativeTarget "Focus" */ = {
+		7ABE405724BF810D00BF168A /* Build configuration list for PBXNativeTarget "Focus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A835BCB24BCD81E00D48F17 /* Debug */,
-				7A835BCC24BCD81E00D48F17 /* Release */,
+				7ABE405824BF810D00BF168A /* Debug */,
+				7ABE405924BF810D00BF168A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7A835BB324BCD81A00D48F17 /* Project object */;
+	rootObject = 7ABE404024BF810A00BF168A /* Project object */;
 }
