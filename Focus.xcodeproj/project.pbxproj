@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				7ABE404B24BF810A00BF168A /* FocusApp.swift */,
-				7AD5157924C215D90089F11D /* Models */,
+				7AD5157924C215D90089F11D /* Model */,
 				7AD5157A24C215E80089F11D /* View */,
 				7ABE404F24BF810D00BF168A /* Assets.xcassets */,
 				7ABE405424BF810D00BF168A /* Info.plist */,
@@ -76,12 +76,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7AD5157924C215D90089F11D /* Models */ = {
+		7AD5157924C215D90089F11D /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				7ABE406224BFC2ED00BF168A /* FocusModel.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7AD5157A24C215E80089F11D /* View */ = {
