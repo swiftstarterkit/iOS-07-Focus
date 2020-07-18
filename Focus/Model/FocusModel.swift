@@ -36,7 +36,7 @@ extension FocusModel {
         timerActive = true
         timeStart = time
         timeRemaining = timeStart
-        timer = Timer.scheduledTimer(withTimeInterval: 60.0, repeats: true) { timer in self.runTimerActions() }
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in self.runTimerActions() }
     }
     
     func invalidateTimer() {
